@@ -1,0 +1,36 @@
+.singleSkill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 20%;
+    padding: 7px 25px;
+    font-size: 1.5rem;
+
+    border: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: all .35s;
+    color: gold;
+    background-color: black;
+}
+
+.singleSkill:hover {
+    border: 1px solid black;
+    color: black;
+    background-color: #fff;
+}
+
+.singleSkill svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 3rem;
+    padding: 3px;
+    font-size: 3rem;
+    margin-right: 1rem;
+
+    border-radius: 8px;
+    border: 1px solid #fff;
+}

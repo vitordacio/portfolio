@@ -1,0 +1,48 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 240px;
+    height: 200px;
+    padding: 2rem 1rem;
+
+    background-color: #999;
+}
+
+.contactLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    height: 100%;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    border-radius: 8px;
+    background-color: #888;
+}
+
+.contactLink:hover {
+    background-color: #777;
+}
+
+.contactLink svg {
+    font-size: 2rem;
+    margin-bottom: .3rem;
+
+    color: #111;
+}
+
+.contactLink h3 {
+    color: #9c1519;
+}
+
+.contact p {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}

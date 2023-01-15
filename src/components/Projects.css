@@ -1,0 +1,21 @@
+.projects {
+    color: black;
+    background-color: #999;
+}
+
+.projects>p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+
+    margin-bottom: 2rem;
+}
+
+.projectsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+}
