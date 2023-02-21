@@ -1,0 +1,75 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 2rem;
+
+    background-color: #223139;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.colors button {
+    cursor: pointer;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 8px;
+    border: none;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.about-section>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-indent: 2em;
+    width: 50%;
+    min-height: 300px;
+}
+
+.avatar {
+    width: 300px;
+    height: 350px;
+
+    background-image: url('https://i.ibb.co/TgzrpbY/Vitor-Dacio-use-this-image-serious-magic-vibes-background-reali-f15de155-62a8-4def-9f63-c4732d9debd4.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.about-section h1 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 746px) {
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-section>div {
+        width: 100%;
+    }
+}

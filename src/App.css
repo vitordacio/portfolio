@@ -1,8 +1,9 @@
-#root>div {
+.container {
+    width: 100%;
     padding: 4rem 6rem;
 }
 
-div>h2 {
+#root>div>h2 {
     font-weight: bold;
 
     color: #9c1519;

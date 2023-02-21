@@ -1,7 +1,6 @@
-import './Skill.css'
+import './styles.css'
 
 const Skill = ({ data }) => {
-
 
     return (
         <div className="singleSkill">

@@ -1,12 +1,11 @@
 import './App.css';
 
-import Welcome from "./components/Welcome"
-import Header from './components/Header';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contacts from './components/Contacts';
-import Footer from './components/Footer';
+import Projects from './components/Projects/Projects';
+import Contacts from './components/Contacts/Contacts';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
 
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
   return (
     <>
       <Header />
-      <Welcome />
       <About />
       <Skills />
       <Projects />
