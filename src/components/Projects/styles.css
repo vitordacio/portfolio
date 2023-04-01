@@ -19,3 +19,27 @@
 
     gap: 1rem;
 }
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+}
+
+.actions>svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    width: 40px;
+    height: 40px;
+}
+
+.actions>span {
+    font-size: 2rem;
+}
